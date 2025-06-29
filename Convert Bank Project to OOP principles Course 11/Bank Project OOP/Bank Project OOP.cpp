@@ -1,10 +1,11 @@
 #include<iostream>
-#include"clsBankClient.h"
 #include"clsMainScreen.h"
 using namespace std;
 
 
 
+// there existence here is temprory 
+/////////////////////////////////////////////////////////////////////////////////////////////////
 //void ShowTotalBalances()
 //{
 //	vector<clsBankClient> vClients = clsBankClient::GetClientsList();
@@ -45,14 +46,14 @@ using namespace std;
 //	cout << "| " << left << setw(40) << Client.FullName;
 //	cout << "| " << left << setw(12) << Client.AccountBalance;
 //}
-
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 int main()
 {
 	
 	clsMainScreen::ShowMainMenue();
-	
+	 
 
 	system("pause>0");
 
