@@ -21,20 +21,22 @@ private:
 		return clsInputValidate::ReadIntNumberBetween(1, 4, "Choose from 1 to 8 only ");
 	}
 
+	// we call those kind of functions stabs ,because they don't contain implementation. 
 	static void _ShowDepositScreen()
 	{
-		cout << "\nDeposit Screen will be here soon ...";
+		cout << "\nDeposit Screen will be here soon ...";  //1
 	}
 
 	static void _ShowWithdrawScreen()
 	{
-		cout << "\Withdraw Screen will be here soon ...";
+		cout << "\Withdraw Screen will be here soon ...";  //2
 	}
 
 	static void _ShowTotalBalancesScreen()
 	{
-		cout << "\Total Balances Screen will be here soon ...";
+		cout << "\Total Balances Screen will be here soon ..."; //3
 	}
+	/////////////////////////////////////////////////////////////
 
 	static void _GoBackToTransactionMenue()
 	{
@@ -73,7 +75,7 @@ private:
 		case enTransactionMenueOptions::eShowMainMenue:
 		{
 			system("cls");
-			return;
+			// Do nothing here tha main screen will hundle it soon :-) ;
 		}
 		}
 	}
@@ -92,7 +94,7 @@ public:
 		cout << setw(37) << left << "" << "\t\t  Transaction Menue Screen\n";
 		cout << setw(37) << left << "" << "=========================================\n";
 		cout << setw(37) << left << "" << " [1] Deposit. \n";
-		cout << setw(37) << left << "" << " [2] Withdra . \n";
+		cout << setw(37) << left << "" << " [2] Withdraw . \n";
 		cout << setw(37) << left << "" << " [3] Total Balances. \n";
 		cout << setw(37) << left << "" << " [4] Main Menue. \n";
 		cout << setw(37) << left << "" << "=========================================\n";
